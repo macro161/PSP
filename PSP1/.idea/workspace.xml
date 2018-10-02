@@ -6,23 +6,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cece7a99-8068-4019-aa63-70f1442497a5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../HospitalMethod/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HospitalMethod/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MethodLigonine.mdzip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MethodLigonine.mdzip.bak" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StartegyLigonine.mdzip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StartegyLigonine.mdzip.bak" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StrategyLigonine.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ChemicalDrugPolicy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChemicalDrugPolicy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Doctor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Doctor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IDrugPolicy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IDrugPolicy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ITreatmentCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ITreatmentCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InsuranceCompany.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InsuranceCompany.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NaturalDrugPolicy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NaturalDrugPolicy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OptimisticTreatmentCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OptimisticTreatmentCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PesimisticTreatmentCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PesimisticTreatmentCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Treatment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Treatment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,25 +14,6 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="DockManager">
-    <window id="1">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/src/Person.java">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="306">
-                    <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1882994121">
@@ -82,14 +47,23 @@
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
     </session>
+    <session id="1936800916">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Doctor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="12" selection-end-column="5" />
+            <state relative-caret-position="289">
+              <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -102,10 +76,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
               <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
-              <folding>
-                <element signature="e#251#252#0" expanded="true" />
-                <element signature="e#277#278#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -114,7 +84,7 @@
         <entry file="file://$PROJECT_DIR$/src/ChemicalDrugPolicy.java">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="56" lean-forward="true" selection-start-column="56" selection-end-column="56" />
+              <caret column="56" selection-start-column="56" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -123,7 +93,7 @@
         <entry file="file://$PROJECT_DIR$/src/ITreatmentCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="39" lean-forward="true" selection-start-column="39" selection-end-column="39" />
+              <caret column="39" selection-start-column="39" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -132,7 +102,7 @@
         <entry file="file://$PROJECT_DIR$/src/OptimisticTreatmentCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="76" lean-forward="true" selection-start-column="76" selection-end-column="76" />
+              <caret column="76" selection-start-column="76" selection-end-column="76" />
             </state>
           </provider>
         </entry>
@@ -149,7 +119,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/InsuranceCompany.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
+            <state relative-caret-position="272">
               <caret line="17" column="75" selection-start-line="17" selection-start-column="75" selection-end-line="17" selection-end-column="75" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -161,7 +131,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Treatment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
+            <state relative-caret-position="51">
               <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -179,11 +149,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="34" lean-forward="true" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+            <state relative-caret-position="85">
+              <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -219,10 +189,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2128" />
-    <option name="y" value="-2" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -232,6 +202,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -248,13 +220,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538482408453" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538494159077" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../HospitalMethod" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -299,10 +269,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1696" height="1026" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20721272" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21006711" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -311,7 +280,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3295964" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3295964" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -319,7 +288,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3295964" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32907802" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -362,27 +331,31 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/IDrugPolicy.java">
+    <entry file="file://$PROJECT_DIR$/src/NaturalDrugPolicy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="38" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
+        <state relative-caret-position="170">
+          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Treatment.java">
+    <entry file="file://$PROJECT_DIR$/src/ChemicalDrugPolicy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state>
+          <caret column="56" selection-start-column="56" selection-end-column="56" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Person.java">
+    <entry file="file://$PROJECT_DIR$/src/ITreatmentCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+        <state>
+          <caret column="39" selection-start-column="39" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OptimisticTreatmentCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="76" selection-start-column="76" selection-end-column="76" />
         </state>
       </provider>
     </entry>
@@ -393,51 +366,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/OptimisticTreatmentCalculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="76" lean-forward="true" selection-start-column="76" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NaturalDrugPolicy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
-          <folding>
-            <element signature="e#251#252#0" expanded="true" />
-            <element signature="e#277#278#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Doctor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="12" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ChemicalDrugPolicy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="56" lean-forward="true" selection-start-column="56" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ITreatmentCalculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="39" lean-forward="true" selection-start-column="39" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/InsuranceCompany.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
+        <state relative-caret-position="272">
           <caret line="17" column="75" selection-start-line="17" selection-start-column="75" selection-end-line="17" selection-end-column="75" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -445,10 +376,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Treatment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IDrugPolicy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="38" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="34" lean-forward="true" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+        <state relative-caret-position="85">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Doctor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -510,6 +475,18 @@
               <list>
                 <option value="0.2" />
                 <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
               </list>
             </option>
           </splitter-proportions>
