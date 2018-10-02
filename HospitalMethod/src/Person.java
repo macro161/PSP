@@ -7,10 +7,10 @@ public class Person {
     public boolean drinking;
     public int pulse;
     public int age;
+    public Treatment treatment = new Treatment("");
 
     public Person(int id, int healthcarePlan, boolean smoking, boolean drinking, int pulse, int age) {
         this.id = id;
-        //this.birthDate = birthDate;
         HealthcarePlan = healthcarePlan;
         this.smoking = smoking;
         this.drinking = drinking;

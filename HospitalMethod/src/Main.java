@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Main {
     public static void main(String [ ] args)
     {
@@ -14,10 +16,18 @@ public class Main {
         Person personNine = new Person(8888, 96, false, true, 70, 22  );
         Person personTen = new Person(9999, 5, false, false, 90, 65  );
 
-        DoctorChemicalDrug doctorOne = new OptimisticDoctorChemicalDrug();
-        DoctorChemicalDrug doctorTwo= new PesimisticDoctorChemicalDrug();
-        DoctorNaturalDrug doctorThree = new OptimisticDoctorNaturalDrug();
-        DoctorNaturalDrug doctorFour = new PesimisticDoctorNaturalDrug();
+        DoctorChemicalDrug doctorOne = new OptimisticDoctorChemicalDrug(Arrays.asList(personOne,personTwo));
+        DoctorChemicalDrug doctorTwo= new PesimisticDoctorChemicalDrug(Arrays.asList(personThree, personFour, personTen));
+        DoctorNaturalDrug doctorThree = new OptimisticDoctorNaturalDrug(Arrays.asList(personFive,personSix, personNine));
+        DoctorNaturalDrug doctorFour = new PesimisticDoctorNaturalDrug(Arrays.asList(personSeven,personEight));
 
+        InsuranceCompany insuranceCompany = new InsuranceCompany(Arrays.asList(personOne,personTwo,personThree, personFour, personTen,personFive,personSix, personNine,personSeven,personEight), doctorTwo);
+
+        doctorOne.TreatPatients();
+        doctorTwo.TreatPatients();
+        doctorThree.TreatPatients();
+        doctorFour.TreatPatients();
+
+        insuranceCompany.calculateInsurancePrice();
     }
 }

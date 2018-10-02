@@ -5,8 +5,7 @@ public class Treatment {
     public List<String> drugs = new ArrayList<String>();
     public String treatmentPlan;
 
-    public Treatment(List<String> drugs, String treatmentPlan) {
-        this.drugs = drugs;
+    public Treatment(String treatmentPlan) {
         this.treatmentPlan = treatmentPlan;
     }
 }
