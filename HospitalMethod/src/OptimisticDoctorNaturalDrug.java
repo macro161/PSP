@@ -3,23 +3,20 @@ import java.util.List;
 
 public class OptimisticDoctorNaturalDrug extends DoctorNaturalDrug {
 
-    public OptimisticDoctorNaturalDrug(List<Person> patients) {
+    public OptimisticDoctorNaturalDrug(List<Person> patients)
+    {
         this.patients = patients;
     }
-    void PrescribeNaturalDrugs(Person patient) {
-        System.out.println("Drugs prescribed to " + patient.id + " in " + this.getClass());
-        patient.treatment.drugs.add("Herbal extract");
-    }
 
     @Override
-    void AssignTreatmentPlan(Person patient) {
-        System.out.println("Treatment assigned to " + patient.id + " in " + this.getClass());
-        patient.treatment.treatmentPlan += "Just chill out";
-    }
+    public int calculateMortality(Person patient)
+    {
+        System.out.println(this.getClass() + " Evaluates mortality to " + patient.id);
 
-    @Override
-    int MortalityCalculator(Person patient) {
-        System.out.println("Mortality evaluated to " + patient.id + " in" + this.getClass());
-        return patient.age + patient.pulse;
+        int mortality = 0;
+
+        if(patient.pulse > 120)  mortality += 25;
+
+        return mortality;
     }
 }

@@ -21,7 +21,7 @@ public class Main {
         DoctorNaturalDrug doctorThree = new OptimisticDoctorNaturalDrug(Arrays.asList(personFive,personSix, personNine));
         DoctorNaturalDrug doctorFour = new PesimisticDoctorNaturalDrug(Arrays.asList(personSeven,personEight));
 
-        InsuranceCompany insuranceCompany = new InsuranceCompany(Arrays.asList(personOne,personTwo,personThree, personFour, personTen,personFive,personSix, personNine,personSeven,personEight), doctorTwo);
+        InsuranceCompany insuranceCompany = new InsuranceCompany(Arrays.asList(personOne,personTwo,personThree,personFive,personSix,personSeven,personEight,personNine,personTen));
 
         doctorOne.TreatPatients();
         doctorTwo.TreatPatients();

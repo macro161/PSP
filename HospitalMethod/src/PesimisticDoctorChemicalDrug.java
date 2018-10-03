@@ -3,7 +3,8 @@ import java.util.List;
 
 public class PesimisticDoctorChemicalDrug extends DoctorChemicalDrug {
 
-    public PesimisticDoctorChemicalDrug(List<Person> patients) {
+    public PesimisticDoctorChemicalDrug(List<Person> patients)
+    {
         this.patients = patients;
     }
 
@@ -12,26 +13,17 @@ public class PesimisticDoctorChemicalDrug extends DoctorChemicalDrug {
     }
 
     @Override
-    void PrescribeChemicalDrugs(Person patient) {
-        System.out.println("Drugs prescribed to " + patient.id + " in " + this.getClass());
-        patient.treatment.drugs.add("Antibiotics");
-    }
+    public int calculateMortality(Person patient)
+    {
+        System.out.println(this.getClass() + " Evaluates mortality to " + patient.id);
 
-    @Override
-    void AssignTreatmentPlan(Person patient) {
-        System.out.println("Treatment assigned to " + patient.id + " in " + this.getClass());
-        patient.treatment.treatmentPlan +="Hospitalisation";
-    }
-
-    @Override
-    int MortalityCalculator(Person patient) {
-        System.out.println("Mortality evaluated to " + patient.id + " in" + this.getClass());
         int mortality = 0;
 
-        mortality += patient.age + patient.pulse;
+        if(patient.pulse > 120)  mortality += 25;
+        if(patient.smoking) mortality += 10;
+        if(patient.drinking) mortality += 5;
+        mortality += patient.age;
 
-        if(patient.drinking) mortality += 10;
-        if(patient.smoking) mortality += 5;
         return mortality;
     }
 }

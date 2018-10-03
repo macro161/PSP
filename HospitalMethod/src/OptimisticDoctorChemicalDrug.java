@@ -4,25 +4,24 @@ import java.util.List;
 
 public class OptimisticDoctorChemicalDrug extends DoctorChemicalDrug {
 
-
-    public OptimisticDoctorChemicalDrug(List<Person> patients) {
+    public OptimisticDoctorChemicalDrug(List<Person> patients)
+    {
         this.patients = patients;
     }
 
-    void PrescribeChemicalDrugs(Person patient) {
-        System.out.println("Drugs prescribed to " + patient.id + " in " + this.getClass());
-        patient.treatment.drugs.add("Xanax");
+    @Override
+    public int calculateMortality(Person patient)
+    {
+        System.out.println(this.getClass() + " Evaluates mortality to " + patient.id);
+
+        int mortality = 0;
+
+        if(patient.pulse > 120)  mortality += 25;
+        else mortality += 10;
+
+
+        return mortality;
     }
 
-    @Override
-    void AssignTreatmentPlan(Person patient) {
-        System.out.println("Treatment assigned to " + patient.id + " in " + this.getClass());
-        patient.treatment.treatmentPlan += "Just chill out";
-    }
 
-    @Override
-    int MortalityCalculator(Person patient) {
-        System.out.println("Mortality evaluated to " + patient.id + " in" + this.getClass());
-        return patient.age + patient.pulse;
-    }
 }
