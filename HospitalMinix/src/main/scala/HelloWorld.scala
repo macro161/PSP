@@ -17,7 +17,7 @@ object HelloWorld{
     var addit = (i:Int, j:Int ) => i + j;
 
     println(addit(10,27));
-
+    C
   }
 
   def addition(x: Int, y: Int) : Int = {
