@@ -1,9 +1,8 @@
-class Person(Idc: Int, BMIc: Float, Agec: Int, Smokingc: Boolean, Drinkingc: Boolean, Pulsec: Int) {
-  var Id: Int = Idc;
-  var BMI: Float = BMIc;
-  var Age: Int = Agec
-  var Smoking: Boolean = Smokingc;
-  var Drinking: Boolean = Drinkingc;
-  var Pulse: Int = Pulsec;
-  var Treatment = new Treatment();
+class Person(idc: Int, bmic: Double, agec: Int, smokingc: Boolean, drinkingc: Boolean) {
+  var id: Int = idc
+  var bmi: Double = bmic
+  var age: Int = agec
+  var smoking: Boolean = smokingc
+  var drinking: Boolean = drinkingc
+  val treatment = new Treatment()
 }

@@ -1,4 +1,4 @@
 class Treatment {
-  val Drugs: List[String] = List()
-  var Treatment: String = ""
+  val drugs: List[String] = List()
+  var treatmentPlan: String = "";
 }
