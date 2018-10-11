@@ -4,20 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/src/main/scala/GeneralDoctorTrait.scala" line="4" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="88e98d97-22ef-4207-9780-4b176ba7017e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/CardiologistTrait.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/Consultant.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/DoctorTrait.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/GeneralDoctorTrait.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/InsuranceCompany.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/Cardiologist.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/Doctor.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/GeneralDoctor.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/HelloWorld.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/HelloWorld.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/Person.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Person.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/Treatment.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Treatment.scala" afterDir="false" />
-    </list>
+    <list default="true" id="88e98d97-22ef-4207-9780-4b176ba7017e" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
@@ -37,6 +24,7 @@
     <session id="-1212913212">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.41" value="1" />
           <entry key="project.open.time.47" value="1" />
           <entry key="project.open.time.49" value="1" />
@@ -233,7 +221,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539111784606" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539111817680" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -372,7 +360,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.329718" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
