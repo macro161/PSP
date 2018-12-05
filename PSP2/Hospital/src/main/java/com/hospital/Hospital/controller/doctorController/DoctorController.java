@@ -11,15 +11,13 @@ import org.springframework.web.bind.annotation.RestController;
 import javax.print.Doc;
 
 @RestController
-@RequestMapping(DoctorController.BASE_URL)
 public class DoctorController {
-    public static final String BASE_URL = "/api/v1/doctor";
 
     @Autowired
     private DoctorService doctorService;
 
     @GetMapping("/{id}")
-    public Doctor getCustomerById(@PathVariable Long id){
+    public Doctor getDoctorById(@PathVariable long id){
         return doctorService.getDoctorById(id);
     }
 }

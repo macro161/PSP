@@ -4,6 +4,7 @@ import com.hospital.Hospital.domain.doctor.Doctor;
 import com.hospital.Hospital.domainService.doctorFactory.DoctorFactory;
 import com.hospital.Hospital.facadeService.doctorService.DoctorService;
 import com.hospital.Hospital.repository.DoctorRepository;
+import com.hospital.Hospital.repository.DoctorRepositoryImp;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -11,14 +12,14 @@ import org.springframework.stereotype.Service;
 public class DoctorServiceImp implements DoctorService {
 
     @Autowired
-    DoctorRepository doctorRepository;
+    DoctorRepositoryImp doctorRepository;
 
     @Autowired
     DoctorFactory doctorFactory;
 
 
     @Override
-    public Doctor getDoctorById(Long id) {
-        return doctorRepository.findById(id).get();
+    public Doctor getDoctorById(long id) {
+        return doctorRepository.getDoctorById(id);
     }
 }
