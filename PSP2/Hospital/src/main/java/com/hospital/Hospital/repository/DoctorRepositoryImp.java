@@ -13,4 +13,9 @@ public class DoctorRepositoryImp implements DoctorRepository {
     public Doctor getDoctorById(long id) {
         return doctors.stream().filter(doctor -> doctor.getId() == id).findFirst().orElse(null);
     }
+
+    @Override
+    public void createDoctor(Doctor doctor) {
+        doctors.add(doctor);
+    }
 }

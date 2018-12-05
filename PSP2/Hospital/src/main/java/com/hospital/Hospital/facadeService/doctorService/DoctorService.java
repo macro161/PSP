@@ -5,4 +5,6 @@ import com.hospital.Hospital.domain.doctor.Doctor;
 public interface DoctorService {
    // #TODO this
     Doctor getDoctorById(long id);
+    Doctor createDoctor(String doctorName);
+    deleteDoctor(long id);
 }

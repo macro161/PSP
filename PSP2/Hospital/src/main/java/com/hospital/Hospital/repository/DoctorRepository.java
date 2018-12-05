@@ -7,4 +7,5 @@ import org.springframework.stereotype.Repository;
 
 public interface DoctorRepository {
     Doctor getDoctorById(long id);
+    void createDoctor(Doctor doctor);
 }

@@ -22,4 +22,12 @@ public class DoctorServiceImp implements DoctorService {
     public Doctor getDoctorById(long id) {
         return doctorRepository.getDoctorById(id);
     }
+
+    @Override
+    public Doctor createDoctor(String doctorName) {
+        Doctor doctor = doctorFactory.createDoctor(doctorName);
+        doctorRepository.createDoctor(doctor);
+
+        return doctor;
+    }
 }
