@@ -1,14 +1,11 @@
 package com.hospital.Hospital.domain.patient;
 
-import com.hospital.Hospital.domain.doctor.Doctor;
-import com.hospital.Hospital.domain.drug.Drug;
 import lombok.Data;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import java.util.List;
 
 @Data
 @Entity

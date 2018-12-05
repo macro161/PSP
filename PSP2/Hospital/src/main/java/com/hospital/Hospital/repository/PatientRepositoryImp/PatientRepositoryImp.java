@@ -1,6 +1,5 @@
 package com.hospital.Hospital.repository.PatientRepositoryImp;
 
-import com.hospital.Hospital.domain.drug.ChemicalDrug;
 import com.hospital.Hospital.domain.drug.Drug;
 import com.hospital.Hospital.domain.patient.Patient;
 import com.hospital.Hospital.domain.patient.SimplePatient;

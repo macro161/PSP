@@ -1,8 +1,5 @@
 package com.hospital.Hospital.domain.patient;
 
-import com.hospital.Hospital.domain.drug.Drug;
-
-import java.util.List;
 import java.util.Random;
 
 public class ImportantPatient extends Patient {

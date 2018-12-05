@@ -1,6 +1,5 @@
 package com.hospital.Hospital.domain.doctor;
 
-import javax.print.Doc;
 import java.util.Random;
 
 public class SurgeonDoctor extends Doctor {
