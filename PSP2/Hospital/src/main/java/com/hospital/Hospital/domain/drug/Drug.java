@@ -12,7 +12,7 @@ import javax.persistence.Id;
 public abstract class Drug {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
+    private long id;
     private String name;
     private int halfLife;
     private int price;
@@ -25,11 +25,11 @@ public abstract class Drug {
         this.price = price;
     }
 
-    public int getId() {
+    public long getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(long id) {
         this.id = id;
     }
 

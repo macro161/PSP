@@ -1,6 +1,7 @@
 package com.hospital.Hospital.domain.patient;
 
 import com.hospital.Hospital.domain.doctor.Doctor;
+import com.hospital.Hospital.domain.drug.Drug;
 import lombok.Data;
 
 import javax.persistence.Entity;
@@ -21,6 +22,16 @@ public class Patient {
     private String lastName;
     private int age;
     private int priority;
+    private boolean isHealthy;
+
+
+    public boolean isHealthy() {
+        return isHealthy;
+    }
+
+    public void setHealthy(boolean healthy) {
+        isHealthy = healthy;
+    }
 
     public int getPriority() {
         return priority;
