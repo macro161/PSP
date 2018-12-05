@@ -19,5 +19,5 @@ public class Configuration1 {
     public DoctorFactory doctorFactory(){
         return new NormalDoctorfactory();
     }
-    
+
 }
