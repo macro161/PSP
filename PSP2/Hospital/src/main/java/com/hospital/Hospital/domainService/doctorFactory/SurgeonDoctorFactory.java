@@ -1,13 +1,13 @@
 package com.hospital.Hospital.domainService.doctorFactory;
 
 import com.hospital.Hospital.domain.doctor.Doctor;
-import com.hospital.Hospital.domain.doctor.NormalDoctor;
+import com.hospital.Hospital.domain.doctor.SurgeonDoctor;
 import org.springframework.stereotype.Service;
 
 @Service
-public class NormalDoctorfactory implements DoctorFactory {
+public class SurgeonDoctorFactory implements DoctorFactory {
     @Override
     public Doctor createDoctor(String firstName,String lastName) {
-        return new NormalDoctor(firstName,lastName,false);
+        return new SurgeonDoctor(firstName,lastName,true);
     }
 }

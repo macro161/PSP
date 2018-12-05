@@ -9,7 +9,7 @@ import javax.persistence.Id;
 
 @Data
 @Entity
-public class Drug {
+public abstract class Drug {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;

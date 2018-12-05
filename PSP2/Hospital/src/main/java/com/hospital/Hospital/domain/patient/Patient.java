@@ -20,6 +20,15 @@ public class Patient {
     private String firstName;
     private String lastName;
     private int age;
+    private int priority;
+
+    public int getPriority() {
+        return priority;
+    }
+
+    public void setPriority(int priority) {
+        this.priority = priority;
+    }
 
     public int getId() {
         return id;
