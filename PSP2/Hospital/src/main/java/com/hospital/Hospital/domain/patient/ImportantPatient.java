@@ -3,6 +3,7 @@ package com.hospital.Hospital.domain.patient;
 import com.hospital.Hospital.domain.drug.Drug;
 
 import java.util.List;
+import java.util.Random;
 
 public class ImportantPatient extends Patient {
     public ImportantPatient(String firstName, String lastName, int age, int priority, boolean isHealthy) {
@@ -11,5 +12,7 @@ public class ImportantPatient extends Patient {
         setAge(age);
         setPriority(priority);
         setHealthy(isHealthy);
+        Random r = new Random();
+        setId(Math.abs(r.nextLong()));
     }
 }

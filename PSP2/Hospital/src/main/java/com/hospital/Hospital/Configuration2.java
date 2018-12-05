@@ -16,7 +16,7 @@ import com.hospital.Hospital.repository.drugRepository.DrugRepository;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-@Configuration
+//@Configuration
 public class Configuration2 {
     @Bean
     DoctorService doctorService(){

@@ -8,6 +8,5 @@ public class NaturalDrug extends Drug {
         setHalfLife(halflife);
         setPrice(price);
         Random r = new Random();
-        setId(r.nextLong());
-    }
+        setId(Math.abs(r.nextLong()));    }
 }

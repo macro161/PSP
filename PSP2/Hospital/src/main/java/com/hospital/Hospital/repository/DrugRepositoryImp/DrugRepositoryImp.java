@@ -18,7 +18,6 @@ public class DrugRepositoryImp implements DrugRepository {
     NaturalDrug nd2 = new NaturalDrug("Snake oil", 3, 20);
     NaturalDrug nd3 = new NaturalDrug("Flower tea", 2, 3);
 
-
     List<Drug> drugs = new ArrayList<Drug>(){{add(d1);add(d2);add(d3);add(nd1);add(nd2);add(nd3);}};
 
     @Override

@@ -13,11 +13,11 @@ import java.util.List;
 @Data
 @Entity
 
-public class Patient {
+public abstract class Patient {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
+    private long id;
     private String firstName;
     private String lastName;
     private int age;
@@ -41,11 +41,11 @@ public class Patient {
         this.priority = priority;
     }
 
-    public int getId() {
+    public long getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(long id) {
         this.id = id;
     }
 

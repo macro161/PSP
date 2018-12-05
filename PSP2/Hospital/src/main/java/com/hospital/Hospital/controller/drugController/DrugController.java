@@ -1,7 +1,6 @@
 package com.hospital.Hospital.controller.drugController;
 
 import com.hospital.Hospital.domain.drug.Drug;
-import com.hospital.Hospital.facadeService.doctorService.DoctorService;
 import com.hospital.Hospital.facadeService.drugService.DrugService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;

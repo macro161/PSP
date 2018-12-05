@@ -9,6 +9,5 @@ public class SurgeonDoctor extends Doctor {
         setLastName(lastName);
         setCanOperate(canOperate);
         Random r = new Random();
-        setId(r.nextLong());
-    }
+        setId(Math.abs(r.nextLong()));    }
 }
