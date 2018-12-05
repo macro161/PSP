@@ -12,7 +12,7 @@ import org.springframework.stereotype.Service;
 public class DoctorServiceImp implements DoctorService {
 
     @Autowired
-    DoctorRepositoryImp doctorRepository;
+    DoctorRepository doctorRepository;
 
     @Autowired
     DoctorFactory doctorFactory;
