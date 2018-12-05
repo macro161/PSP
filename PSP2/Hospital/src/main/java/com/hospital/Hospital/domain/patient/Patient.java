@@ -20,7 +20,6 @@ public class Patient {
     private String firstName;
     private String lastName;
     private int age;
-    private List<Doctor> patientsDoctors;
 
     public int getId() {
         return id;
@@ -54,11 +53,4 @@ public class Patient {
         this.age = age;
     }
 
-    public List<Doctor> getPatientsDoctors() {
-        return patientsDoctors;
     }
-
-    public void setPatientsDoctors(List<Doctor> patientsDoctors) {
-        this.patientsDoctors = patientsDoctors;
-    }
-}

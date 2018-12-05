@@ -12,7 +12,7 @@ import javax.print.Doc;
 public class Doctor {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
+    private Long id;
     private String firstName;
     private String lastName;
 
@@ -20,11 +20,11 @@ public class Doctor {
         setFirstName(name);
     }
 
-    public int getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
