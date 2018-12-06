@@ -7,6 +7,6 @@ public class SimplePatientFactory implements PatientFactory {
 
     @Override
     public Patient createPatient(String firstName, String lastName, int age, int priority, boolean isHealthy) {
-        return new SimplePatient(firstName,lastName,age,priority,isHealthy);
+        return new SimplePatient(firstName, lastName, age, priority, isHealthy);
     }
 }

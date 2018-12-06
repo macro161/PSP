@@ -15,29 +15,29 @@ public class DoctorController {
     private DoctorService doctorService;
 
     @GetMapping("/doctors/{id}")
-    public Doctor getDoctorById(@PathVariable long id){
+    public Doctor getDoctorById(@PathVariable long id) {
         return doctorService.getDoctorById(id);
     }
 
     @PostMapping("/createdoctor")
     @ResponseStatus(HttpStatus.CREATED)
-    public Doctor createDoctor (@RequestParam("firstName") String firstName, @RequestParam("lastName") String lastName){
-        return doctorService.createDoctor(firstName,lastName);
+    public Doctor createDoctor(@RequestParam("firstName") String firstName, @RequestParam("lastName") String lastName) {
+        return doctorService.createDoctor(firstName, lastName);
     }
 
     @DeleteMapping("deletedoctor/{id}")
-    public void deleteDoctor(@PathVariable long id){
+    public void deleteDoctor(@PathVariable long id) {
 
         doctorService.deleteDoctor(id);
     }
 
     @PutMapping("updatedoctor/{id}")
-    public Doctor updateDoctor(@PathVariable long id, @RequestParam("firstName") String firstName, @RequestParam("lastName") String lastName, @RequestParam("canOperate") boolean canOperate){
-        return doctorService.updateDoctor(id,firstName,lastName,canOperate);
+    public Doctor updateDoctor(@PathVariable long id, @RequestParam("firstName") String firstName, @RequestParam("lastName") String lastName, @RequestParam("canOperate") boolean canOperate) {
+        return doctorService.updateDoctor(id, firstName, lastName, canOperate);
     }
 
     @GetMapping("/getalldoctors")
-    public List<Doctor> getAllDoctors(){
+    public List<Doctor> getAllDoctors() {
         return doctorService.getAllDoctors();
     }
 }

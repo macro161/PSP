@@ -10,16 +10,22 @@ import java.util.List;
 
 public class DoctorRepositoryImp implements DoctorRepository {
 
-    NormalDoctor nd1 = new NormalDoctor("Matas","Savickis", false);
-    NormalDoctor nd2 = new NormalDoctor("Greta","Pyrantaite", false);
-    NormalDoctor nd3 = new NormalDoctor("Andrius","Bentkus", false);
-    SurgeonDoctor sd1 = new SurgeonDoctor("Justas","Tvarijonas", true);
-    SurgeonDoctor sd2 = new SurgeonDoctor("Rytautas","Kvasinskas", true);
-    SurgeonDoctor sd3 = new SurgeonDoctor("Tomas","Kiziela", true);
+    NormalDoctor nd1 = new NormalDoctor("Matas", "Savickis", false);
+    NormalDoctor nd2 = new NormalDoctor("Greta", "Pyrantaite", false);
+    NormalDoctor nd3 = new NormalDoctor("Andrius", "Bentkus", false);
+    SurgeonDoctor sd1 = new SurgeonDoctor("Justas", "Tvarijonas", true);
+    SurgeonDoctor sd2 = new SurgeonDoctor("Rytautas", "Kvasinskas", true);
+    SurgeonDoctor sd3 = new SurgeonDoctor("Tomas", "Kiziela", true);
 
 
-
-    List<Doctor> doctors  = new ArrayList<Doctor>(){{add(nd1);add(nd2);add(nd3);add(sd1);add(sd2);add(sd3);}};
+    List<Doctor> doctors = new ArrayList<Doctor>() {{
+        add(nd1);
+        add(nd2);
+        add(nd3);
+        add(sd1);
+        add(sd2);
+        add(sd3);
+    }};
 
 
     @Override

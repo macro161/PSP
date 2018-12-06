@@ -16,5 +16,7 @@ public class DrugController {
 
 
     @GetMapping("/getalldrugs")
-    public List<Drug> getAllDrugs(){ return drugService.getAllDrugs();}
+    public List<Drug> getAllDrugs() {
+        return drugService.getAllDrugs();
+    }
 }

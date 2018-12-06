@@ -31,7 +31,7 @@ public class DoctorServiceImp implements DoctorService {
 
     @Override
     public Doctor createDoctor(String firstName, String lastName) {
-        Doctor doctor = doctorFactory.createDoctor(firstName,lastName);
+        Doctor doctor = doctorFactory.createDoctor(firstName, lastName);
         doctorRepository.createDoctor(doctor);
         return doctor;
     }
@@ -43,7 +43,7 @@ public class DoctorServiceImp implements DoctorService {
 
     @Override
     public Doctor updateDoctor(long id, String firstName, String lastName, boolean canOperate) {
-        return doctorRepository.updateDoctor(id,firstName,lastName,canOperate);
+        return doctorRepository.updateDoctor(id, firstName, lastName, canOperate);
     }
 
 

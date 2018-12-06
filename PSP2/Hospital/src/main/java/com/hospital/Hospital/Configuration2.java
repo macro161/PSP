@@ -19,26 +19,34 @@ import org.springframework.context.annotation.Configuration;
 //@Configuration
 public class Configuration2 {
     @Bean
-    DoctorService doctorService(){
+    DoctorService doctorService() {
         return new DoctorServiceImp();
     }
 
     @Bean
-    DoctorFactory doctorFactory(){
+    DoctorFactory doctorFactory() {
         return new SurgeonDoctorFactory();
     }
 
     @Bean
-    DoctorRepository doctorRepository(){ return new DoctorRepositoryImp();}
+    DoctorRepository doctorRepository() {
+        return new DoctorRepositoryImp();
+    }
 
     @Bean
-    DrugService drugService() { return  new DrugServiceImp(); }
+    DrugService drugService() {
+        return new DrugServiceImp();
+    }
 
     @Bean
-    DrugFactory drugFactory() { return new ChemicalDrugFactory();}
+    DrugFactory drugFactory() {
+        return new ChemicalDrugFactory();
+    }
 
     @Bean
-    DrugRepository drugRepository() {return new DrugRepositoryImp();}
+    DrugRepository drugRepository() {
+        return new DrugRepositoryImp();
+    }
 
 
 }

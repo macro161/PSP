@@ -10,20 +10,24 @@ import java.util.List;
 
 public class PatientRepositoryImp implements PatientRepository {
 
-    SimplePatient p1 = new SimplePatient("Tomas","Tomaitis", 40, 50, false);
-    SimplePatient p2 = new SimplePatient("Jonas","Jonaitis", 35, 80, false);
-    SimplePatient p3 = new SimplePatient("Petras","Petraitis", 21, 10, true);
+    SimplePatient p1 = new SimplePatient("Tomas", "Tomaitis", 40, 50, false);
+    SimplePatient p2 = new SimplePatient("Jonas", "Jonaitis", 35, 80, false);
+    SimplePatient p3 = new SimplePatient("Petras", "Petraitis", 21, 10, true);
 
-    List<Patient> patients = new ArrayList<Patient>(){{add(p1);add(p2);add(p3);}};
+    List<Patient> patients = new ArrayList<Patient>() {{
+        add(p1);
+        add(p2);
+        add(p3);
+    }};
 
     @Override
     public Patient getPatientById(long id) {
-        return null;
+        return patients.stream().filter(patient -> patient.getId() == id).findFirst().orElse(null);
     }
 
     @Override
     public boolean createPatient(Patient patient) {
-        return false;
+        return patients.add(patient);
     }
 
     @Override
@@ -33,11 +37,16 @@ public class PatientRepositoryImp implements PatientRepository {
 
     @Override
     public void deletePatient(long id) {
-
+        patients.remove(getPatientById(id));
     }
 
     @Override
     public Patient updatePatient(long id, String firstName, String lastName, int age, int priority, List<Drug> prescribedDrugs, boolean isHealthy) {
-        return null;
+        getPatientById(id).setFirstName(firstName);
+        getPatientById(id).setLastName(lastName);
+        getPatientById(id).setAge(age);
+        getPatientById(id).setPriority(priority);
+        getPatientById(id).setHealthy(isHealthy);
+        return getPatientById(id);
     }
 }

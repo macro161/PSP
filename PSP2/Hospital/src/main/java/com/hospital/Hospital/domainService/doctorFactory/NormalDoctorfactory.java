@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class NormalDoctorfactory implements DoctorFactory {
     @Override
-    public Doctor createDoctor(String firstName,String lastName) {
-        return new NormalDoctor(firstName,lastName,false);
+    public Doctor createDoctor(String firstName, String lastName) {
+        return new NormalDoctor(firstName, lastName, false);
     }
 }

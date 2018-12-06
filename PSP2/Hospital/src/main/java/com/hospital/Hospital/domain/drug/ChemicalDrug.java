@@ -8,5 +8,6 @@ public class ChemicalDrug extends Drug {
         setHalfLife(halflife);
         setPrice(price);
         Random r = new Random();
-        setId(Math.abs(r.nextLong()));    }
+        setId(Math.abs(r.nextLong()));
+    }
 }
