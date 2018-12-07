@@ -3,9 +3,8 @@ package com.hospital.Hospital.controller.patientController;
 import com.hospital.Hospital.domain.patient.Patient;
 import com.hospital.Hospital.facadeService.patientService.PatientService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.http.HttpStatus;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -24,5 +23,13 @@ public class PatientController {
     public int getMortality(@PathVariable long id){
         return patientService.getPatientMortality(id);
     }
+
+    @PostMapping("/registerpatient")
+    @ResponseStatus(HttpStatus.CREATED)
+    public Patient registerPatient(@RequestParam("firstName") String firstName, @RequestParam("lastName") String lastName, @RequestParam("age") int age, @RequestParam("priority") int priority) {
+        return patientService.registerPatient(firstName, lastName, age,priority);
+    }
+
+
 
 }

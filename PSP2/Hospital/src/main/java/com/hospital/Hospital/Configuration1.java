@@ -15,6 +15,9 @@ import com.hospital.Hospital.facadeService.drugService.DrugService;
 import com.hospital.Hospital.facadeService.drugServiceImp.DrugServiceImp;
 import com.hospital.Hospital.facadeService.patientService.PatientService;
 import com.hospital.Hospital.facadeService.patientServiceImp.PatientServiceImp;
+import com.hospital.Hospital.integrational.registraitionSenderImp.RegistrationSenderConsole;
+import com.hospital.Hospital.integrational.registrationListener.RegistrationListener;
+import com.hospital.Hospital.integrational.registrationSender.RegistrationSender;
 import com.hospital.Hospital.repository.DrugRepositoryImp.DrugRepositoryImp;
 import com.hospital.Hospital.repository.PatientRepository.PatientRepository;
 import com.hospital.Hospital.repository.PatientRepositoryImp.PatientRepositoryImp;
@@ -23,6 +26,9 @@ import com.hospital.Hospital.repository.doctorRepositoryImp.DoctorRepositoryImp;
 import com.hospital.Hospital.repository.drugRepository.DrugRepository;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+
+import java.util.ArrayList;
+import java.util.List;
 
 @Configuration
 public class Configuration1 {
@@ -79,5 +85,17 @@ public class Configuration1 {
     @Bean
     HospitalService hospitalService2(){
         return new PrivateHospitalService();
+    }
+
+    @Bean
+    RegistrationSender registrationSender(){
+        return new RegistrationSenderConsole();
+    }
+
+    @Bean
+    List<RegistrationListener> registrationListeners(){
+        List<RegistrationListener> listeners = new ArrayList<>();
+        listeners.add(new PatientRepositoryImp());
+        return listeners;
     }
 }

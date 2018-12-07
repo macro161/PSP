@@ -2,10 +2,11 @@ package com.hospital.Hospital.repository.PatientRepository;
 
 import com.hospital.Hospital.domain.drug.Drug;
 import com.hospital.Hospital.domain.patient.Patient;
+import com.hospital.Hospital.integrational.registrationListener.RegistrationListener;
 
 import java.util.List;
 
-public interface PatientRepository {
+public interface PatientRepository extends RegistrationListener {
     Patient getPatientById(long id);
 
     boolean createPatient(Patient patient);

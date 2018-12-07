@@ -7,4 +7,6 @@ import java.util.List;
 public interface PatientService {
     List<Patient> getAllPatients();
     int getPatientMortality(long id);
+
+    Patient registerPatient(String firstName, String lastName, int age, int priority);
 }

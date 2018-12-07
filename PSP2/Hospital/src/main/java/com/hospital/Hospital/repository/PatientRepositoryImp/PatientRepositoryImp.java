@@ -49,4 +49,9 @@ public class PatientRepositoryImp implements PatientRepository {
         getPatientById(id).setHealthy(isHealthy);
         return getPatientById(id);
     }
+
+    @Override
+    public void patientWasRegistered(long patientId, String firstName) {
+        System.out.println("Repository got message about patient: " + patientId);
+    }
 }
