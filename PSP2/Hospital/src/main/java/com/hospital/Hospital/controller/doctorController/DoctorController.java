@@ -1,6 +1,7 @@
 package com.hospital.Hospital.controller.doctorController;
 
 import com.hospital.Hospital.domain.doctor.Doctor;
+import com.hospital.Hospital.domain.patient.Patient;
 import com.hospital.Hospital.facadeService.doctorService.DoctorService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -39,5 +40,11 @@ public class DoctorController {
     @GetMapping("/getalldoctors")
     public List<Doctor> getAllDoctors() {
         return doctorService.getAllDoctors();
+    }
+
+    @PutMapping("/treatpatient/{id}")
+    @ResponseStatus(HttpStatus.ACCEPTED)
+    public Patient treatPatient(@PathVariable long id){
+        return doctorService.treatPatient(id);
     }
 }

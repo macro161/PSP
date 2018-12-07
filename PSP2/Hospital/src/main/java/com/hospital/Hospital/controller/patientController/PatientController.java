@@ -4,6 +4,7 @@ import com.hospital.Hospital.domain.patient.Patient;
 import com.hospital.Hospital.facadeService.patientService.PatientService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
@@ -17,6 +18,11 @@ public class PatientController {
     @GetMapping("/getallpatients")
     public List<Patient> getAllPatients() {
         return patientService.getAllPatients();
+    }
+
+    @GetMapping("/getmosrtality/{id}")
+    public int getMortality(@PathVariable long id){
+        return patientService.getPatientMortality(id);
     }
 
 }

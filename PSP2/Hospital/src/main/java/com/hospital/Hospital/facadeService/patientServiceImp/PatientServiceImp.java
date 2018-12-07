@@ -1,6 +1,7 @@
 package com.hospital.Hospital.facadeService.patientServiceImp;
 
 import com.hospital.Hospital.domain.patient.Patient;
+import com.hospital.Hospital.domainService.hospitalService.HospitalService;
 import com.hospital.Hospital.domainService.patientFactory.PatientFactory;
 import com.hospital.Hospital.facadeService.patientService.PatientService;
 import com.hospital.Hospital.repository.PatientRepository.PatientRepository;
@@ -18,8 +19,17 @@ public class PatientServiceImp implements PatientService {
     @Autowired
     PatientFactory patientFactory;
 
+    @Autowired
+    HospitalService hospitalService2;
+
     @Override
     public List<Patient> getAllPatients() {
         return patientRepository.getAllPatients();
+    }
+
+    @Override
+    public int getPatientMortality(long id) {
+        hospitalService2.treatPatient(patientRepository.getPatientById(id));
+        return 10;
     }
 }

@@ -4,14 +4,15 @@ import com.hospital.Hospital.domainService.doctorFactory.DoctorFactory;
 import com.hospital.Hospital.domainService.doctorFactory.NormalDoctorfactory;
 import com.hospital.Hospital.domainService.drugFactory.DrugFactory;
 import com.hospital.Hospital.domainService.drugFactory.NaturalDrugFactory;
+import com.hospital.Hospital.domainService.hospitalService.HospitalService;
+import com.hospital.Hospital.domainService.hospitalServiceImp.PrivateHospitalService;
+import com.hospital.Hospital.domainService.hospitalServiceImp.PublicHospitalService;
 import com.hospital.Hospital.domainService.patientFactory.PatientFactory;
 import com.hospital.Hospital.domainService.patientFactory.SimplePatientFactory;
 import com.hospital.Hospital.facadeService.doctorService.DoctorService;
 import com.hospital.Hospital.facadeService.doctorServiceImp.DoctorServiceImp;
 import com.hospital.Hospital.facadeService.drugService.DrugService;
 import com.hospital.Hospital.facadeService.drugServiceImp.DrugServiceImp;
-import com.hospital.Hospital.facadeService.hospitalService.HospitalService;
-import com.hospital.Hospital.facadeService.hospitalServiceImp.PrivateHospitalServiceImp;
 import com.hospital.Hospital.facadeService.patientService.PatientService;
 import com.hospital.Hospital.facadeService.patientServiceImp.PatientServiceImp;
 import com.hospital.Hospital.repository.DrugRepositoryImp.DrugRepositoryImp;
@@ -71,9 +72,12 @@ public class Configuration1 {
     }
 
     @Bean
-    HospitalService hospitalSerVice1() {
-        return new PrivateHospitalServiceImp();
+    HospitalService hospitalService1(){
+        return new PublicHospitalService();
     }
 
-
+    @Bean
+    HospitalService hospitalService2(){
+        return new PrivateHospitalService();
+    }
 }

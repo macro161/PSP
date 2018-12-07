@@ -1,6 +1,7 @@
 package com.hospital.Hospital.facadeService.doctorService;
 
 import com.hospital.Hospital.domain.doctor.Doctor;
+import com.hospital.Hospital.domain.patient.Patient;
 
 import java.util.List;
 
@@ -15,4 +16,6 @@ public interface DoctorService {
     void deleteDoctor(long id);
 
     Doctor updateDoctor(long id, String firstName, String lastName, boolean canOperate);
+
+    Patient treatPatient(long patientId);
 }
