@@ -1,0 +1,415 @@
+@startuml
+
+title __HOSPITAL's Class Diagram__\n
+
+  package com.hospital.Hospital {
+    package com.hospital.Hospital.domain.drug {
+      class ChemicalDrug {
+      }
+    }
+  }
+  
+
+  package com.hospital.Hospital {
+    package com.hospital.Hospital.domainService.drugFactory {
+      class ChemicalDrugFactory {
+      }
+    }
+  }
+  
+
+  package com.hospital.Hospital {
+    class Configuration1 {
+    }
+  }
+  
+
+  package com.hospital.Hospital {
+    class Configuration2 {
+    }
+  }
+  
+
+  package com.hospital.Hospital {
+    package com.hospital.Hospital.domain.doctor {
+      abstract class Doctor {
+      }
+    }
+  }
+  
+
+  package com.hospital.Hospital {
+    package com.hospital.Hospital.controller.doctorController {
+      class DoctorController {
+      }
+    }
+  }
+  
+
+  package com.hospital.Hospital {
+    package com.hospital.Hospital.domainService.doctorFactory {
+      interface DoctorFactory {
+      }
+    }
+  }
+  
+
+  package com.hospital.Hospital {
+    package com.hospital.Hospital.repository.doctorRepository {
+      interface DoctorRepository {
+      }
+    }
+  }
+  
+
+  package com.hospital.Hospital {
+    package com.hospital.Hospital.repository.doctorRepository {
+      package com.hospital.Hospital.repository.doctorRepositoryImp {
+        class DoctorRepositoryImp {
+        }
+      }
+    }
+  }
+  
+
+  package com.hospital.Hospital {
+    package com.hospital.Hospital.facadeService.doctorService {
+      interface DoctorService {
+      }
+    }
+  }
+  
+
+  package com.hospital.Hospital {
+    package com.hospital.Hospital.facadeService.doctorService {
+      package com.hospital.Hospital.facadeService.doctorServiceImp {
+        class DoctorServiceImp {
+        }
+      }
+    }
+  }
+  
+
+  package com.hospital.Hospital {
+    package com.hospital.Hospital.domain.drug {
+      abstract class Drug {
+      }
+    }
+  }
+  
+
+  package com.hospital.Hospital {
+    package com.hospital.Hospital.controller.drugController {
+      class DrugController {
+      }
+    }
+  }
+  
+
+  package com.hospital.Hospital {
+    package com.hospital.Hospital.domainService.drugFactory {
+      interface DrugFactory {
+      }
+    }
+  }
+  
+
+  package com.hospital.Hospital {
+    package com.hospital.Hospital.repository.drugRepository {
+      interface DrugRepository {
+      }
+    }
+  }
+  
+
+  package com.hospital.Hospital {
+    package com.hospital.Hospital.repository.DrugRepositoryImp {
+      class DrugRepositoryImp {
+      }
+    }
+  }
+  
+
+  package com.hospital.Hospital {
+    package com.hospital.Hospital.facadeService.drugService {
+      interface DrugService {
+      }
+    }
+  }
+  
+
+  package com.hospital.Hospital {
+    package com.hospital.Hospital.facadeService.drugService {
+      package com.hospital.Hospital.facadeService.drugServiceImp {
+        class DrugServiceImp {
+        }
+      }
+    }
+  }
+  
+
+  package com.hospital.Hospital {
+    class HospitalApplication {
+    }
+  }
+  
+
+  package com.hospital.Hospital {
+    package com.hospital.Hospital.domainService.hospitalService {
+      interface HospitalService {
+      }
+    }
+  }
+  
+
+  package com.hospital.Hospital {
+    package com.hospital.Hospital.domain.patient {
+      class ImportantPatient {
+      }
+    }
+  }
+  
+
+  package com.hospital.Hospital {
+    package com.hospital.Hospital.domainService.patientFactory {
+      class ImportantPatientFactory {
+      }
+    }
+  }
+  
+
+  package com.hospital.Hospital {
+    package com.hospital.Hospital.domain.drug {
+      class NaturalDrug {
+      }
+    }
+  }
+  
+
+  package com.hospital.Hospital {
+    package com.hospital.Hospital.domainService.drugFactory {
+      class NaturalDrugFactory {
+      }
+    }
+  }
+  
+
+  package com.hospital.Hospital {
+    package com.hospital.Hospital.domain.doctor {
+      class NormalDoctor {
+      }
+    }
+  }
+  
+
+  package com.hospital.Hospital {
+    package com.hospital.Hospital.domainService.doctorFactory {
+      class NormalDoctorfactory {
+      }
+    }
+  }
+  
+
+  package com.hospital.Hospital {
+    package com.hospital.Hospital.domain.patient {
+      abstract class Patient {
+      }
+    }
+  }
+  
+
+  package com.hospital.Hospital {
+    package com.hospital.Hospital.controller.patientController {
+      class PatientController {
+      }
+    }
+  }
+  
+
+  package com.hospital.Hospital {
+    package com.hospital.Hospital.domainService.patientFactory {
+      interface PatientFactory {
+      }
+    }
+  }
+  
+
+  package com.hospital.Hospital {
+    package com.hospital.Hospital.repository.PatientRepository {
+      interface PatientRepository {
+      }
+    }
+  }
+  
+
+  package com.hospital.Hospital {
+    package com.hospital.Hospital.repository.PatientRepository {
+      package com.hospital.Hospital.repository.PatientRepositoryImp {
+        class PatientRepositoryImp {
+        }
+      }
+    }
+  }
+  
+
+  package com.hospital.Hospital {
+    package com.hospital.Hospital.facadeService.patientService {
+      interface PatientService {
+      }
+    }
+  }
+  
+
+  package com.hospital.Hospital {
+    package com.hospital.Hospital.facadeService.patientService {
+      package com.hospital.Hospital.facadeService.patientServiceImp {
+        class PatientServiceImp {
+        }
+      }
+    }
+  }
+  
+
+  package com.hospital.Hospital {
+    package com.hospital.Hospital.domainService.hospitalService {
+      package com.hospital.Hospital.domainService.hospitalServiceImp {
+        class PrivateHospitalService {
+        }
+      }
+    }
+  }
+  
+
+  package com.hospital.Hospital {
+    package com.hospital.Hospital.domainService.hospitalService {
+      package com.hospital.Hospital.domainService.hospitalServiceImp {
+        class PublicHospitalService {
+        }
+      }
+    }
+  }
+  
+
+  package com.hospital.Hospital {
+    package com.hospital.Hospital.integrational.registrationListener {
+      interface RegistrationListener {
+      }
+    }
+  }
+  
+
+  package com.hospital.Hospital {
+    package com.hospital.Hospital.integrational.registrationSender {
+      interface RegistrationSender {
+      }
+    }
+  }
+  
+
+  package com.hospital.Hospital {
+    package com.hospital.Hospital.integrational.registraitionSenderImp {
+      class RegistrationSenderConsole {
+      }
+    }
+  }
+  
+
+  package com.hospital.Hospital {
+    package com.hospital.Hospital.integrational.registraitionSenderImp {
+      class RegistrationSenderEmail {
+      }
+    }
+  }
+  
+
+  package com.hospital.Hospital {
+    package com.hospital.Hospital.domain.patient {
+      class SimplePatient {
+      }
+    }
+  }
+  
+
+  package com.hospital.Hospital {
+    package com.hospital.Hospital.domainService.patientFactory {
+      class SimplePatientFactory {
+      }
+    }
+  }
+  
+
+  package com.hospital.Hospital {
+    package com.hospital.Hospital.domain.doctor {
+      class SurgeonDoctor {
+      }
+    }
+  }
+  
+
+  package com.hospital.Hospital {
+    package com.hospital.Hospital.domainService.doctorFactory {
+      class SurgeonDoctorFactory {
+      }
+    }
+  }
+  
+
+  ChemicalDrug -up-|> Drug
+  ChemicalDrugFactory -up-|> DrugFactory
+  DoctorController o-- DoctorService : doctorService
+  DoctorRepositoryImp -up-|> DoctorRepository
+  DoctorRepositoryImp o-- NormalDoctor : nd1
+  DoctorRepositoryImp o-- NormalDoctor : nd2
+  DoctorRepositoryImp o-- NormalDoctor : nd3
+  DoctorRepositoryImp o-- SurgeonDoctor : sd1
+  DoctorRepositoryImp o-- SurgeonDoctor : sd2
+  DoctorRepositoryImp o-- SurgeonDoctor : sd3
+  DoctorServiceImp -up-|> DoctorService
+  DoctorServiceImp o-- DoctorRepository : doctorRepository
+  DoctorServiceImp o-- PatientRepository : patientRepository
+  DoctorServiceImp o-- DoctorFactory : doctorFactory
+  DoctorServiceImp o-- HospitalService : hospitalService1
+  DrugController o-- DrugService : drugService
+  DrugRepositoryImp -up-|> DrugRepository
+  DrugRepositoryImp o-- ChemicalDrug : d1
+  DrugRepositoryImp o-- ChemicalDrug : d2
+  DrugRepositoryImp o-- ChemicalDrug : d3
+  DrugRepositoryImp o-- NaturalDrug : nd1
+  DrugRepositoryImp o-- NaturalDrug : nd2
+  DrugRepositoryImp o-- NaturalDrug : nd3
+  DrugServiceImp -up-|> DrugService
+  DrugServiceImp o-- DrugFactory : drugFactory
+  DrugServiceImp o-- DrugRepository : drugRepository
+  ImportantPatient -up-|> Patient
+  ImportantPatientFactory -up-|> PatientFactory
+  NaturalDrug -up-|> Drug
+  NaturalDrugFactory -up-|> DrugFactory
+  NormalDoctor -up-|> Doctor
+  NormalDoctorfactory -up-|> DoctorFactory
+  PatientController o-- PatientService : patientService
+  PatientRepositoryImp -up-|> PatientRepository
+  PatientRepositoryImp o-- SimplePatient : p1
+  PatientRepositoryImp o-- SimplePatient : p2
+  PatientRepositoryImp o-- SimplePatient : p3
+  PatientServiceImp -up-|> PatientService
+  PatientServiceImp o-- PatientRepository : patientRepository
+  PatientServiceImp o-- PatientFactory : patientFactory
+  PatientServiceImp o-- HospitalService : hospitalService2
+  PatientServiceImp o-- RegistrationSender : registrationSender
+  PrivateHospitalService -up-|> HospitalService
+  PublicHospitalService -up-|> HospitalService
+  RegistrationSenderConsole -up-|> RegistrationSender
+  SimplePatient -up-|> Patient
+  SimplePatientFactory -up-|> PatientFactory
+  SurgeonDoctor -up-|> Doctor
+  SurgeonDoctorFactory -up-|> DoctorFactory
+
+
+right footer
+
+
+PlantUML diagram generated by SketchIt! (https://bitbucket.org/pmesmeur/sketch.it)
+For more information about this tool, please contact philippe.mesmeur@gmail.com
+endfooter
+
+@enduml
