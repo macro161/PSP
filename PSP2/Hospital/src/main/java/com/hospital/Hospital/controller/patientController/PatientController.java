@@ -19,7 +19,7 @@ public class PatientController {
         return patientService.getAllPatients();
     }
 
-    @GetMapping("/getmosrtality/{id}")
+    @GetMapping("/getmortality/{id}")
     public int getMortality(@PathVariable long id){
         return patientService.getPatientMortality(id);
     }
